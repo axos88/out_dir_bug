@@ -1,0 +1,15 @@
+[package]
+name = "out_dir_bug"
+version = "0.1.0"
+authors = ["Akos Vandra <akos@elegran.com>"]
+build = "build.rs"
+include = ["../frontend/dist"]
+
+
+[dependencies]
+phf = "0.7.21"
+includedir = "0.4.0"
+
+
+[build-dependencies]
+includedir_codegen = "0.4.0"
