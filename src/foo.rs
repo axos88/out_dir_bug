@@ -1,3 +1,3 @@
 use env; // This is causing the bug
 
-include!(concat!(env!("OUT_DIR"), "/data.rs"));
+include!(concat!(env!("NON_EXISTENT"), "/data.rs"));
